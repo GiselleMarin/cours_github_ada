@@ -1,2 +1,2 @@
--- faire un select de la table rides
-select * from rides;
+-- compter le nombre des rides
+select count(*) as nb_ride from rides;
