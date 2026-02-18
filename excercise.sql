@@ -5,3 +5,4 @@ SELECT
     COUNT(*) AS nb_rides
 FROM rides
 GROUP BY strftime('%m', departure_date), strftime('%Y', departure_date)
+ORDER BY nb_rides DESC
